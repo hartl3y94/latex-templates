@@ -11,22 +11,22 @@
 \pagestyle{fancyplain}
 
 % Title
-\newcommand{\mytitle}{Title}
+\newcommand{\mytitle}{My paper}
 % Subtitle
-\newcommand{\mysubtitle}{Subtitle}
+\newcommand{\mysubtitle}{My subtitle}
 % Author
-\newcommand{\myauthor}{Author}
+\newcommand{\myauthor}{John Doe}
 % Institution
-\newcommand{\myinstitution}{My institution}
+\newcommand{\myinstitution}{Harvard University}
 
 \fancyhead{}
 \lhead{}
 \chead{\mytitle}
-\rhead{\thepage}
+\rhead{}
 
 \fancyfoot{}
 \lfoot{}
-\cfoot{}
+\cfoot{\thepage}
 \rfoot{}
 
 \title{\mytitle}
@@ -69,9 +69,6 @@
 \section*{Acknowledgements}
 
 \begin{thebibliography}{9}
-
-\bibitem[\protect\citename{Derwing et al., }2017]{derwing}
-Derwing, T. M., Rossiter, M. J., \& Munro, M. J. (2002). Teaching native speakers to listen to foreign-accented speech. \textit{Journal of Multilingual and Multicultural Development, 23(4),} 245-259.
-
+\input{bibliography.tex}
 \end{thebibliography}
 \end{document}
